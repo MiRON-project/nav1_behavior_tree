@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<root main_tree_to_execute="BehaviorTree">
+    <!-- ////////// -->
+    <BehaviorTree ID="BehaviorTree">
+        <Action ID="MoveBase" executed_path="{executed_path}" goal="-5;0;0" planner_result="{result}" server_timeout="1000"/>
+    </BehaviorTree>
+    <!-- ////////// -->
+    <TreeNodesModel>
+        <Action ID="MoveBase">
+            <output_port name="executed_path"/>
+            <input_port name="goal">geometry_msgs::PoseStamped: Frame_id (map); seq (0); stamp (ros::Time(uint32, uint32)); w (1); x (0); y (0); z (0); x; y; z</input_port>
+            <output_port name="planner_result"/>
+            <input_port name="server_timeout">ms</input_port>
+        </Action>
+    </TreeNodesModel>
+    <!-- ////////// -->
+</root>
+

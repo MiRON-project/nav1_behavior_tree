@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>nav1_behavior_tree</name>
+  <version>0.0.1</version>
+  <description>An integration of BT.CPP with navigation (move_base)</description>
+  <maintainer email="renan028@gmail.com"></maintainer>
+  <author>Renan Freitas</author>
+
+  <license>Apache 2.0</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>actionlib</depend>
+  <depend>actionlib_msgs</depend>
+  <depend>behaviortree_cpp_v3</depend>
+  <depend>message_generation</depend>
+  <depend>move_base</depend>
+  <depend>pluginlib</depend>
+  <depend>roscpp</depend>
+  <depend>std_msgs</depend>
+  <depend>tf</depend>
+  <depend>xmlrpcpp</depend>
+
+  <build_export_depend>message_runtime</build_export_depend>
+  <exec_depend>message_runtime</exec_depend>
+  
+  <test_depend>rostest</test_depend>
+  <test_depend>rosunit</test_depend>
+
+</package>
